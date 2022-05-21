@@ -15,7 +15,7 @@ Use his parts and my dock which mounts via 4xM3 Screws and T-Nuts. There is some
 
 Because of the linear rail and carriage i lost a good amount of y-travel. I regained all the travel by moving the y-extrusion forward by replacing the original m5 screws with shorter ones and t-nuts in the rail.
 
-I used kevinakasam configuration macros of his klackender https://github.com/kevinakasam/KlackEnder-Probe but changed some y and z values for the mounting process.
+I used kevinakasam configuration and macros of his klackender https://github.com/kevinakasam/KlackEnder-Probe but changed some x and z values for the mounting process.
 
 ```
 [probe]
