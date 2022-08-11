@@ -6,16 +6,18 @@ Voron Stealthburner/Afterburner Toolhead needed. The Quickdraw probe works only 
 I used this carriage: https://www.printables.com/model/135563-vrn-10s-pro-mod-for-cr-10s-pro-with-voron-stealthb
 
 Quickdraw Parts by hymness1: https://github.com/hymness1/VoronUsers/tree/master/printer_mods/hymness1/Quickdraw_probe_Voron_Switchwire
-Use his parts and my dock which mounts via 4xM3 Screws and T-Nuts. There is some space for allignment but probably will clean up the design in the futre.
+Use his parts and my dock which mounts via 2xM3 Screws and T-Nuts. 
 
 
-![alt text](Pictures/1.jpg)
-![alt text](Pictures/2.jpg)
+![alt text](Pictures/3.jpg)
+![alt text](Pictures/4.jpg)
+![alt text](Pictures/5.png)
 
 
 Because of the linear rail and carriage i lost a good amount of y-travel. I regained all the travel by moving the y-extrusion forward by replacing the original m5 screws with shorter ones and t-nuts in the rail.
 
 I used kevinakasam configuration and macros of his klackender https://github.com/kevinakasam/KlackEnder-Probe but changed some x and z values for the mounting process.
+Check your x and z values before starting the macros! I already broke one dock because the carriage just body slammed the dock down after changing the z_endstop_offset.
 
 ```
 [probe]
